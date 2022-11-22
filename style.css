@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  background: url(/images/landingimg.261fb38bb833180bd351\ \(1\).png) no-repeat fixed 50%;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+header nav .navbar-brand {
+  padding-top: 30px;
+}
+header nav .collapse .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+header nav .collapse .navbar-nav li {
+  margin-left: 40px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+header nav .collapse .navbar-nav a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-top: 30px;
+  font-size: 25px;
+}
+header nav .collapse .navbar-nav button {
+  font-size: 25px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background: transparent;
+  color: aliceblue;
+  margin-top: 25px;
+  width: 150px;
+  height: 50px;
+}
+header h1 {
+  font-weight: 900;
+  font-size: 90px;
+  padding-top: 200px;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+section .section__card .section__card__h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(48, 48, 48);
+  margin-top: 50px;
+}
+section .section__card .section__card__carta {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+section .section__card .section__card__carta .section__card__carta__1 {
+  color: aliceblue;
+  background-color: rgb(255, 200, 0);
+  border-radius: 15px;
+}
+section .section__card .section__card__carta .section__card__carta__2 {
+  color: aliceblue;
+  background-color: rgb(0, 123, 255);
+  border-radius: 15px;
+}
+section .section__card .section__card__carta .section__card__carta__3 {
+  color: aliceblue;
+  border-radius: 15px;
+  background-color: rgb(221, 0, 255);
+}
+
+section .section__card__1 {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 360px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0px grey;
+}
+section .section__card__1 .section__card__1__left {
+  padding-top: 100px;
+}
+section .section__card__1 .section__card__1__left .section__card__1__left__h1 {
+  font-weight: 700;
+}
+section .section__card__1 .section__card__1__left .section__card__1__left__h5 {
+  margin-top: 30px;
+}
+section .section__card__1 .section__card__1__left .section__card__1__left__input {
+  margin-top: 30px;
+  border-radius: 15px;
+}
+section .section__card__1 .section__card__1__left .section__card__1__left__btn {
+  border: none;
+  margin-top: 30px;
+  color: aliceblue;
+  width: 130px;
+  height: 55px;
+  background-color: rgb(255, 166, 0);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+section .section__card__2 .section__card__2__h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(48, 48, 48);
+  margin-top: 70px;
+}
+section .section__card__2 .section__card__2__vse {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+section .section__card__2 .section__card__2__cards {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+  border: 3px solid rgb(0, 171, 0);
+  border-radius: 10px;
+  transition: 1s;
+}
+section .section__card__2 .section__card__2__cards .section__card__2__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+section .section__card__2 .section__card__2__cards .section__card__2__2 {
+  width: 380px;
+  padding: 10px;
+  color: aliceblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.3s;
+  background-color: rgb(0, 171, 0);
+}
+section .section__card__2 .section__card__2__cards:hover {
+  z-index: 99;
+  background-color: white;
+  border: 3px solid rgb(0, 171, 0);
+}
+section .section__card__2 .section__card__2__cards:hover .section__card__2__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: white;
+}
+section .section__card__2 .section__card__2__cards:hover .section__card__2__2 {
+  background: white;
+  width: 380px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section .section__card__2 .section__card__2__cards:hover .section__card__2__2__h1 {
+  color: rgb(0, 171, 0);
+}
+section .section__card__2 .section__card__3__cards {
+  display: flex;
+  width: 500px;
+  height: 125px;
+  margin-top: 30px;
+  border: 3px solid rgb(20, 114, 236);
+  border-radius: 10px;
+  transition: 1s;
+}
+section .section__card__2 .section__card__3__cards .section__card__3__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+section .section__card__2 .section__card__3__cards .section__card__3__2__h1 {
+  padding: 20px;
+}
+section .section__card__2 .section__card__3__cards .section__card__3__2 {
+  width: 380px;
+  padding: 10px;
+  color: aliceblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.3s;
+  background-color: rgb(20, 114, 236);
+}
+section .section__card__2 .section__card__3__cards:hover {
+  z-index: 99;
+  background-color: white;
+  border: 3px solid rgb(20, 114, 236);
+}
+section .section__card__2 .section__card__3__cards:hover .section__card__3__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: white;
+}
+section .section__card__2 .section__card__3__cards:hover .section__card__3__2 {
+  background: white;
+  width: 380px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section .section__card__2 .section__card__3__cards:hover .section__card__3__2__h1 {
+  color: rgb(20, 114, 236);
+}
+section .section__card__2 .section__card__4__cards {
+  display: flex;
+  width: 500px;
+  height: 125px;
+  margin-top: 30px;
+  border: 3px solid rgb(207, 20, 236);
+  border-radius: 10px;
+  transition: 1s;
+}
+section .section__card__2 .section__card__4__cards .section__card__4__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+section .section__card__2 .section__card__4__cards .section__card__4__2__h1 {
+  padding: 8px;
+}
+section .section__card__2 .section__card__4__cards .section__card__4__2 {
+  width: 380px;
+  padding: 10px;
+  color: aliceblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.3s;
+  background-color: rgb(207, 20, 236);
+}
+section .section__card__2 .section__card__4__cards:hover {
+  z-index: 99;
+  background-color: white;
+  border: 3px solid rgb(207, 20, 236);
+}
+section .section__card__2 .section__card__4__cards:hover .section__card__4__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: white;
+}
+section .section__card__2 .section__card__4__cards:hover .section__card__4__2 {
+  background: white;
+  width: 380px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section .section__card__2 .section__card__4__cards:hover .section__card__4__2__h1 {
+  color: rgb(207, 20, 236);
+}
+section .section__card__2 .section__card__5__cards {
+  display: flex;
+  width: 500px;
+  height: 125px;
+  margin-top: 30px;
+  border: 3px solid rgb(255, 0, 183);
+  border-radius: 10px;
+  transition: 1s;
+}
+section .section__card__2 .section__card__5__cards .section__card__5__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+}
+section .section__card__2 .section__card__5__cards .section__card__5__2__h1 {
+  padding: 20px;
+}
+section .section__card__2 .section__card__5__cards .section__card__5__2 {
+  width: 380px;
+  padding: 10px;
+  color: aliceblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.3s;
+  background-color: rgb(255, 0, 183);
+}
+section .section__card__2 .section__card__5__cards:hover {
+  z-index: 99;
+  background-color: white;
+  border: 3px solid rgb(255, 0, 183);
+}
+section .section__card__2 .section__card__5__cards:hover .section__card__5__1 {
+  width: 120px;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: white;
+}
+section .section__card__2 .section__card__5__cards:hover .section__card__5__2 {
+  background: white;
+  width: 380px;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+section .section__card__2 .section__card__5__cards:hover .section__card__5__2__h1 {
+  color: rgb(255, 0, 183);
+}
+
+section .section__card__3 {
+  gap: 40px;
+}
+section .section__card__3 .section__card__3__h1 {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgb(48, 48, 48);
+  margin-top: 70px;
+}
+section .section__card__3 .section__card__3__card {
+  margin-top: 50px;
+}
+section .section__card__3 .section__card__3__card .section__card__3__left {
+  margin-top: 200px;
+}
+section .section__card__3 .section__card__3__card .section__card__3__left .section__card__3__left__h1 {
+  font-size: 40px;
+}
+section .section__card__3 .section__card__3__card .section__card__3__left .section__card__3__left__p {
+  font-size: 18px;
+}
+section .section__card__3 .section__card__3__card .section__card__3__right {
+  margin-top: 150px;
+}/*# sourceMappingURL=style.css.map */
